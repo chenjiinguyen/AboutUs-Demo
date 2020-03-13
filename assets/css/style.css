@@ -1,9 +1,11 @@
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
-	width: 32%;
+	width: 25%;
+	height: 350px;
 	margin: 20px;
 	padding: 30px 20px 30px 20px;
+	background-color: #fff;
 }
 
 .card:hover {
@@ -17,22 +19,25 @@
 }
 
 .center-image>img{
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
+	border: 1px solid #dee2e6;
+	padding: .25rem;
 }
 
 .container-c {
 	padding: 2px 16px;
 }
 
-.container-c>p{
+.container-c>p,
+.container-c>h5{
 	text-align: center;
 }
 
-.fa {
-	padding: 15px;
-	font-size: 20px;
+.social-btn  {
+	padding: 10px;
+	font-size: 12px;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
@@ -70,8 +75,16 @@
   color: white;
 }
 
-.ft-sz-30{
-	font-size: 30px;
+.social-btn:hover{
+	background-color: #6c757d !important;
+}
+
+.ft-sz-16{
+	font-size: 16px;
+}
+
+.ft-sz-20{
+	font-size: 20px;
 }
 
 .margin-25-5{
@@ -96,5 +109,10 @@
 
 .align-90
 {
-	padding: 50px 80px 0px 80px;
+	padding: 50px 80px 0;
+	width: 1200px;
+}
+
+.text-muted {
+    color: #6c757d!important;
 }
