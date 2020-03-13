@@ -1,0 +1,100 @@
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 32%;
+	margin: 20px;
+	padding: 30px 20px 30px 20px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.center-image{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.center-image>img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.container-c {
+	padding: 2px 16px;
+}
+
+.container-c>p{
+	text-align: center;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 7px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.ft-sz-30{
+	font-size: 30px;
+}
+
+.margin-25-5{
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.ft-sz-15{
+	font-size: 20px;
+	color: #777;
+}
+
+.margin-0
+{
+	margin: 0px;
+}
+
+.center-card{
+	display: flex;
+	justify-content: center;
+}
+
+.align-90
+{
+	padding: 50px 80px 0px 80px;
+}
